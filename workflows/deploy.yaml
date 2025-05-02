@@ -19,4 +19,4 @@ jobs:
           external_repository: pjlau/pjlau.github.io
           publish_dir: .
           publish_branch: main
-          destination_path: data_viz
+          destination_path: .
