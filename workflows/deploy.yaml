@@ -17,6 +17,6 @@ jobs:
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: pjlau/pjlau.github.io
-          publish_dir: .
+          publish_dir: data_viz
           publish_branch: main
           destination_path: .
