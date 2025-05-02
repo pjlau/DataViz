@@ -12,7 +12,7 @@ jobs:
       - name: Checkout source repo
         uses: actions/checkout@v4
 
-      - name: Deploy to username.github.io
+      - name: Deploy to pjlau.github.io
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
