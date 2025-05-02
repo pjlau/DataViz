@@ -16,7 +16,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          external_repository: username/username.github.io
+          external_repository: pjlau/pjlau.github.io
           publish_dir: .
           publish_branch: main
           destination_path: data_viz
